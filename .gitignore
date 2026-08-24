@@ -3,6 +3,9 @@ etc_wireguard/
 *.conf
 !docker-compose.yml
 
+# Credenciales del Makefile (SSH_HOST, WG_USER, WG_PASSWORD, etc.)
+.env
+
 # OS / editor
 .DS_Store
 *.swp
