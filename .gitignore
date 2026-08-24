@@ -1,0 +1,8 @@
+# wg-easy runtime data (no debe versionarse)
+etc_wireguard/
+*.conf
+!docker-compose.yml
+
+# OS / editor
+.DS_Store
+*.swp
